@@ -35,7 +35,7 @@ export default function App() {
   pagesNumbers = Array.from(Array(pagesCount).keys());
 
   return (
-    <section className="w-3/4 bg-black p-1 text-white rounded-lg border h-auto">
+    <section className="w-3/4 bg-black p-1 text-white rounded-lg border h-1/2">
       {!todos ? (
         'Loading'
       ) : (
@@ -56,7 +56,13 @@ export default function App() {
                 <td>{todo.userId}</td>
                 <td c>{todo.title}</td>
                 <td>
-                  <p className={todo.completed ? 'bg-green-800 rounded-md w-auto ' : 'bg-red-800 rounded-md w-auto'}>
+                  <p
+                    className={
+                      todo.completed
+                        ? 'bg-green-800 rounded-md w-auto '
+                        : 'bg-red-800 rounded-md w-auto'
+                    }
+                  >
                     {todo.completed ? 'Completed' : 'Pending'}
                   </p>
                 </td>
