@@ -35,7 +35,7 @@ export default function App() {
   pagesNumbers = Array.from(Array(pagesCount).keys());
 
   return (
-    <section className="w-3/4 bg-black p-1 text-white rounded-lg border h-auto">
+    <section className="w-3/4 p-1  rounded-lg border h-auto">
       {!todos ? (
         'Loading'
       ) : (

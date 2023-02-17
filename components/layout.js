@@ -1,7 +1,7 @@
 import Sidebar from './sidebar';
 const sidebar = ({ children }) => {
   return (
-    <div className="flex ">
+    <div className="flex">
       <Sidebar></Sidebar>
 
       <main className="w-full ">

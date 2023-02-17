@@ -6,7 +6,7 @@ import { useState } from 'react';
 /* eslint-disable @next/next/no-img-element */
 const Sidebar = () => {
   return (
-    <div className="w-1/6 bg-blue-700 ">
+    <div className="w-1/6 bg-blue-700">
       <div className="grid  place-items-center">
         {/* Top Of SideBar */}
         <section className="flex flex-col justify-center  items-center">

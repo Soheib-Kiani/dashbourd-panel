@@ -19,7 +19,7 @@ const index = () => {
   return (
     <section className="w-full">
       <div className="grid grid-cols-4 gap-x-2 ">
-        <div className='w-80 grid place-items-center h-52 rounded-lg  bg-white'>
+        <div className='w-80 h-72 rounded-lg  bg-white'>
           <VictoryChart
             // domainPadding will add space to each side of VictoryBar to
             // prevent it from overlapping the axis
@@ -39,7 +39,7 @@ const index = () => {
             <VictoryBar data={data} x="quarter" y="earnings" />
           </VictoryChart>
         </div>
-        <div className='w-80 grid place-items-center h-52 rounded-lg  bg-white'>
+        <div className='w-80 h-72 rounded-lg  bg-white'>
           <VictoryChart>
             <VictoryBar
               style={{ data: { fill: 'tomato', width: 25 } }}
@@ -65,7 +65,7 @@ const index = () => {
             })}
           </VictoryChart>
         </div>
-        <div className='w-80 grid place-items-center h-52 rounded-lg  bg-white'>
+        <div className='w-80 h-72 rounded-lg  bg-white'>
           <VictoryChart domain={{ x: [0, 11], y: [-10, 10] }}>
             <VictoryBar
               labelComponent={<VictoryTooltip />}
@@ -82,7 +82,7 @@ const index = () => {
             />
           </VictoryChart>
         </div>
-        <div className='w-80 grid place-items-center h-52 rounded-lg  bg-white'>
+        <div className='w-80 h-72 rounded-lg  bg-white'>
           <VictoryStack>
             <VictoryArea
               data={[

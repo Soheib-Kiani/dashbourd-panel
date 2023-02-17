@@ -28,18 +28,18 @@ const index = () => {
     ],
   });
   return (
-    <section>
-      <div className="grid grid-cols-4 place-items-center gap-x-4">
-        <div className="w-80 grid place-items-center h-52 rounded-lg  bg-black ">
+    <section className="w-full">
+      <div className="grid place-items-center grid-cols-4">
+        <div className="w-80 h-52 grid place-items-center rounded-lg  ">
           <BarChart chartData={userData} />
         </div>
-        <div className="w-80 grid place-items-center h-52 rounded-lg bg-black">
+        <div className="w-80 h-52 grid place-items-center rounded-lg">
           <DoughnutChart chartData={userData} />
         </div>
-        <div className="w-80 grid place-items-center h-52 rounded-lg bg-black">
+        <div className="w-80 h-52 grid place-items-center rounded-lg">
           <PieChart chartData={userData} />
         </div>
-        <div className="w-80 grid place-items-center h-52 rounded-lg bg-black">
+        <div className="w-80 h-52 grid place-items-center rounded-lg">
           <LineChart chartData={userData} />
         </div>
       </div>
