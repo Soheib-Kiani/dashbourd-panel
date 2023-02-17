@@ -6,7 +6,7 @@ const sidebar = ({children}) => {
 
         <main className="w-full">
           {/* <Header></Header> */}
-          <article className="m-4 border-2 rounded-lg p-4">{children}</article>
+          <article className="m-4  ">{children}</article>
         </main>
       </div>
   );
