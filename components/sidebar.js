@@ -6,10 +6,10 @@ import { useState } from 'react';
 /* eslint-disable @next/next/no-img-element */
 const Sidebar = () => {
   return (
-    <div className="w-1/6 bg-blue-700 h-screen">
-      <div className="grid h-full place-items-center">
+    <div className="w-1/6 bg-blue-700 ">
+      <div className="grid  place-items-center">
         {/* Top Of SideBar */}
-        <section className="flex flex-col justify-center h-1/6 items-center">
+        <section className="flex flex-col justify-center  items-center">
           <div className="h-24 w-24 rounded-full">
             <img src="/icon/user.png" />
           </div>

@@ -29,7 +29,7 @@ const index = () => {
   });
   return (
     <section>
-      <div className="grid grid-cols-4 place-items-center gap-x-2">
+      <div className="grid grid-cols-4 place-items-center gap-x-4">
         <div className="w-80 grid place-items-center h-52 rounded-lg  bg-black ">
           <BarChart chartData={userData} />
         </div>
