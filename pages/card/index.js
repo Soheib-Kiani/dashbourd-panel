@@ -1,8 +1,9 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import BarChart from '@/components/BarChart';
-import LineChart from '@/components/LineChart';
-import PieChart from '@/components/PieChart';
-import DoughnutChart from '@/components/DoughnutChart';
+import BarChart from '@/charts/BarChart';
+import DoughnutChart from '@/charts/DoughnutChart';
+import LineChart from '@/charts/LineChart';
+import PieChart from '@/charts/PieChart';
+
 import { UserData } from '@/data/Data';
 import React, { useState } from 'react';
 import { Bar } from 'react-chartjs-2';
